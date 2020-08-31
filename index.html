@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Start Bootstrap with a simple layout</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	</head>
+	<body data-spy="scroll" data-target="#navbarResponsive">
+		<!--- Start Home Section -->
+		<header class="home-section">
+			<div id="home">
+				<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+					<a href="#home" class="navbar-brand">Start Bootstrap</a>
+					<button type="button" class="navbar-toggler btn-menu" data-toggle="collapse" data-target="#navbarResponsive">
+						<span class="menu">Menu</span>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item nav-li">
+								<a href="#portfolio" class="nav-link nav-a">portfolio</a>
+							</li>
+							<li class="nav-item nav-li">
+								<a href="#about" class="nav-link nav-a">About</a>
+							</li>
+							<li class="nav-item nav-li">
+								<a href="#contact" class="nav-link nav-a">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="col-12 hero hero-1 text-center">
+					<img src="img/avataaars.svg">
+					<h1>Start Bootstrap</h1>
+					<div class="underline">
+						<div class="heading-underline-1"></div>
+						<i class="fas fa-star star-icon"></i>
+						<div class="heading-underline-2"></div>
+					</div>
+					<p>Graphic Artist - Web Designer - Illustrator</p>
+				</div>
+			</div>
+		</header>
+		<!-- End Home Section -->
+
+		<!-- Start Portfolio Section -->
+		<section class="portfolio-section">
+				<div id="portfolio" class="offset">
+					<div class="row">
+						<div class="col-12 text-center hero hero-2">
+							<h1 class="black">Portfolio</h1>
+							<div class="underline-portfolio">
+								<div class="heading-underline-3"></div>
+								<i class="fas fa-star star-icon-black"></i>
+								<div class="heading-underline-4"></div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content" data-toggle="modal" data-target="#cabin-id">
+										<img src="img/cabin.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5  d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content" data-toggle="modal" data-target="#cake-id">
+										<img src="img/cake.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5  d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content" data-toggle="modal" data-target="#circus-id">
+										<img src="img/circus.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5  d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content" data-toggle="modal" data-target="#game-id">
+										<img src="img/game.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>		
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5  d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content" data-toggle="modal" data-target="#safe-id">
+										<img src="img/safe.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>	
+							<div class="col-sm-12 col-md-6 col-lg-4 mb-5  d-flex justify-content-center">
+								<div class="portfolio-box">
+									<div class="porfolio-content"  data-toggle="modal" data-target="#submarine-id">
+										<img src="img/submarine.png" class="main-img">
+										<div class="preview-icon">
+											<i class="fas fa-plus"></i>
+										</div>
+										<div class="overlay"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Start Modals -->
+
+					<!-- Cabin Modal  -->
+					<div class="modal fade text-center" id="cabin-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Log Cabin</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/cabin.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Cake Modal  -->
+					<div class="modal fade text-center" id="cake-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Tasty Cake</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/cake.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Cake Modal  -->
+					<div class="modal fade text-center" id="circus-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Circus Tent</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/circus.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Games Modal  -->
+					<div class="modal fade text-center" id="game-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Controller</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/game.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Lock Modal  -->
+					<div class="modal fade text-center" id="safe-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Locked Safe</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/safe.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Submarine Modal  -->
+					<div class="modal fade text-center" id="submarine-id">
+						<div class="modal-dialog modal-xl">
+							<div class="modal-content">
+								<div class="modal-body">
+									<div class="container">
+										<button type="button" class="close" data-dismiss="modal">
+											<i class="fas fa-times close-btn"></i>
+										</button>
+										<h1 class="modal-title">Submarine</h1>
+										<div class="underline-2">
+											<div class="heading-underline-modal-1"></div>
+											<i class="fas fa-star star-icon-black"></i>
+											<div class="heading-underline-modal-2"></div>
+										</div>
+										<div class="row">
+											<div class="col-md-8 offset-md-2">
+												<img src="img/submarine.png" class="modal-pic">
+												<p class="lead text-center modal-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+												<p class="text-center btn btn-success modal-btn" data-dismiss="modal">
+													<i class="fas fa-times"></i>
+													Close Window
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>				
+		</section>
+
+		<!-- About Section -->
+		<section class="about-section">
+			<div id="about" class="offset">
+				<div class="container">
+					<div id="about-section">
+						<div class="row">
+							<div class="col-12 text-center hero hero-3">
+								<h1>About</h1>
+									<div class="underline">
+									<div class="heading-underline-1"></div>
+									<i class="fas fa-star star-icon"></i>
+									<div class="heading-underline-2"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center about">
+							<div class="col-lg-3 col-sm-12">
+								<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+							</div>
+							<div class="col-lg-3 col-sm-12">
+								<p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section contact -->
+		<section class="contact-section">
+			<div id="contact" class="offset">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center hero hero-4">
+							<h1 class="black">Contact Me</h1>
+							<div class="underline-contact">
+								<div class="heading-underline-3"></div>
+								<i class="fas fa-star star-icon-black"></i>
+								<div class="heading-underline-4"></div>
+							</div>
+						</div>
+						<div class="col-8 offset-2">
+							<div class="form-group">
+								<form class="contact-form">
+									<input type="text" class="form-control form-control-lg" id="name" placeholder="Name">
+									<input type="email" class="form-control form-control-lg" id="email" placeholder="Email Address">
+									<input type="text" class="form-control form-control-lg" id="phonenumber" placeholder="Phone Number">
+									<input type="text" class="form-control form-control-lg" id="message" placeholder="Message">
+									</input>
+								</form>
+							</div>
+							<a href="#" class="btn btn-success btn-lg form-btn">Send</a>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<!-- Footer Section  -->
+
+		<footer class="footer-section">
+			<div class="container">
+				<div class="row footer-row">
+					<div class="col-md-4 col-sm-12 text-center col-1st">
+						<h1>Location</h1>
+						<p class="p-1">2215 John Daniel Drive</p>
+						<p>Clark, MO 65243</p>
+					</div>
+					<div class="col-md-4 col-sm-12 text-center col-2nd">
+						<h1>Around The Web</h1>
+						<i class="fab fa-facebook-f social-icon"></i>
+						<i class="fab fa-twitter social-icon"></i>
+						<i class="fab fa-linkedin-in social-icon"></i>
+						<i class="fab fa-dribbble social-icon"></i>
+					</div>
+					<div class="col-md-4 col-sm-12 text-center">
+						<h1>About Freelancer</h1>
+						<p class="p-1">Freelance is a free to use, MIT licensed Bootstrap theme created by</p>
+						<a href="#">Start Bootstrap</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copyright text-center">
+			<small>Copyright &copy; Your Website 2020</p>
+		</div>
+		<!--- Script source files -->
+		<script src="assets/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
